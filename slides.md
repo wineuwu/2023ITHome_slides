@@ -6,12 +6,12 @@ highlighter: shiki
 lineNumbers: false
 colorSchema: "light"
 transition: slide-left
-title: ITHELP_ 在 Laravel x Vue Conf 後，我想要學 TypeScript 了
+title:
 ---
 
-<div class="flex h-full space-x-8 items-center justify-center">
+<div class="flex h-full space-x-8  mb-14 justify-center items-center">
   <div class="font-bold  text-left tracking-wide p-3 text-[#2e79c7] text-[35px] relative">在 <span class="text-center p-0.5  px-3  text-[55px] inline-block"> 大腦升級 </span> 後  <br>我想要學 TypeScript 了  
-  <span class="bg-[#2e79c7] mt-10 text-white text-center p-1 text-[20px] w-20 block">前言篇</span>  
+  <span class="bg-[#2e79c7] mt-8 text-white text-center p-1 text-[20px] w-60 block"> 與 JS & ECMAScript</span> 
   </div>
   <div class="h-42 w-42">
     <img src ="/tslogo.png" class="mx-auto"/>
@@ -21,125 +21,68 @@ title: ITHELP_ 在 Laravel x Vue Conf 後，我想要學 TypeScript 了
 
 ---
 
-<div class="flex h-full mx-auto h-350px mx-3  items-center justify-center relative">
-  <div class="  text-right mr-5 w-215px inline-block">
-    <div class="w-215px">
-      <img src ="/ithelp_100.png" class="mx-auto w-full"/>
-    </div>
+  <div class="font-bold  text-center mb-10 tracking-wide  text-[#2e79c7] text-[30px] relative">  ECMAScript 始於 JavaScript 
   </div>
 
-   <div class="font-bold mx-auto  bg-[#2F6FB0] text-center text-white px-3  top-50 left-16  text-[30px] absolute" v-click="1">
-    Web Designer
-   </div>
-   <div class="font-bold mx-auto  text-center top-50 right-6 text-[30px]  text-[#2F6FB0]  absolute " v-click="2">
-      Frontend Developer
-   </div>
-</div>
-
-<div class="mx-auto bg-[#2e79c7] h-3 right-0 bottom-0 left-0 absolute"></div>
-
----
-
-<h3 class="font-bold my-auto  mx-auto mt-44 text-xl  text-center p-3 text-[#2e79c7]">為什麼想以影片的方式呈現？</h3>
-
-<div class="mx-auto bg-[#2e79c7] h-3 right-0 bottom-0 left-0 absolute"></div>
-
----
-
-<div  class="font-bold  mt-10  text-xl text-center text-[#2e79c7]" >
- <div>龍哥: 『 講到你阿嬤都聽得懂的話，那你就會了 』</div>
- <img src="q.png" class="mx-auto mt-10 w-120">
-</div>
-
-<div class="mx-auto bg-[#2e79c7] h-3 right-0 bottom-0 left-0 absolute"></div>
-
----
-
-<div class="flex h-full space-x-8 items-center justify-center">
-  <div class="font-bold  text-left tracking-wide p-3 text-[#2e79c7] text-[35px] relative"> 什麼是TypeScript?
+  <div class=" mx-auto h-80 w-full relative">
+ 
+  <div class="bg-white mx-auto text-xl p-1 right-0 bottom-5 left-0 w-[200px] z-10 absolute ">
+   <img src="JavaScript-logo.png" >
   </div>
-  <div class="h-30 w-30">
-    <img src ="/tslogo.png" class="mx-auto"/>
+
+  <div v-click="1">
+  <Arrow x1="500" y1="200" x2="700" y2="100" color="#2c2c2c" width="2.5"/>
+  <div class=" bg-white rounded-full border-4 h-[150px] shadow text-xl  p-1  top-3 right-18 w-[150px] absolute">
+   <img src="Netscape_logo.svg.png" class="mx-auto mt-13 w-120px">
   </div>
-</div>
-<div class="mx-auto bg-[#2e79c7] h-3 right-0 bottom-0 left-0 absolute"></div>
-
----
-
-<h3 class="font-bold my-auto  mx-auto mt-44 text-xl  text-center p-3 text-[#2e79c7]">以下為例</h3>
-
-<div class="mx-auto bg-[#2e79c7] h-3 right-0 bottom-0 left-0 absolute"></div>
-
----
-
-<div class="flex h-full  items-center justify-around">
-  <div class="font-bold bg-[#2e79c7] h-20 text-white text-center p-2 px-10 text-[20px]"> TypeScript 好處多多<br>快樂多多? </div>
-  <div class="text-left mr-4 text-[#2e79c7] text-[19px]">
-    <div>1. 增強代碼的可維護性，尤其在大型項目的時候效果顯著</div>
-    <div>2. 如果搭配編輯器使用，編譯階段就能檢查類型發現大部分錯誤</div>
-    <div>3. 支持最新的 JavaScript 新特特性</div>
+  <div class="font-bold mx-auto bg-[#2e79c7] text-white text-shadow text-center text-xl  py-1 top-34 right-20 w-34 absolute">Javascript</div>
   </div>
-</div>
-<div class="mx-auto bg-[#2e79c7] h-3 right-0 bottom-0 left-0 absolute"></div>
-
----
-
-<div class="h-full ">
-  <div class="font-bold my-auto  mx-auto text-center p-3 text-[#2e79c7] text-3xl">但大家都這樣說，身為新手的我無感... </div>
-  <div class="flex h-46 mt-24 w-full items-center  justify-center relative">
-    <div class="rounded-full mx-auto bg-[#CEDCEC66] h-60  text-center top-2 right-70 left-0 w-60 -z-3 absolute" ></div>
-    <div class="rounded-full mx-auto bg-[#CAD8E64D] h-48 text-center right-0 -bottom-3 left-0 w-48  -z-1 absolute" ></div>
-    <div class="rounded-full mx-auto bg-[#C4E1FF33] h-68 text-center top-3 right-0 left-90 w-68 -z-2 absolute " ></div>
-    <div class="font-bold mx-auto  text-center top-0 left-50 text-30px text-[#2F6FB0]  leading-60  w-40 absolute " >
-      團隊的使用 
-    </div>
-    <div class="font-bold m-auto text-center top-0  right-0 bottom-0 left-0 text-30px text-[#2F6FB0] leading-48  w-40 absolute ">
-      JSDoc
-    </div>
-    <div class="font-bold text-center right-14 right-34 bottom-0 bottom-5   text-30px  text-[#2F6FB0]  w-60   absolute">
-      權衡學習成本
-    </div>
+  
+  <div v-click="2">
+  <Arrow x1="380" y1="200" x2="130" y2="100" color="#2c2c2c" width="2.5"/>
+  <div class=" bg-white rounded-full border-4 h-[150px] shadow text-xl p-1 top-3  left-18  w-[150px]  absolute" >
+   <img src="ie.png" class="mx-auto mt-4 w-80px">
   </div>
+  <div class="font-bold mx-auto bg-[#2e79c7] text-white text-shadow text-center text-xl  py-1  top-34 left-22 w-30 absolute">JScript</div>
+  </div>
+  <div class=" h-full bg-[#f1f1f180]  w-full" v-click="3">
+    <span class="font-bold right-4 bottom-4 text-[#000000CC] block absolute"> ECMAScript 標準化寫法 </span>
+  </div>
+  </div>
+  <div class="mx-auto bg-[#2e79c7] h-3 right-0 bottom-0 left-0 z-3 absolute"></div>
+
+---
+
+  <div class="font-bold  text-left mb-10 tracking-wide  text-[#2e79c7] text-[30px] relative"> ECMAScript 
+  </div>
+  <div class="font-bold bg-[#2e79c7] text-white text-center p-0.5 w-26">出現目的:</div>
+  <div class="mt-5 px-4 text-[#3C3C3C]">
+    為了解決 JavaScript 的互通性問題，一個叫做 ECMA 的組織（歐洲計算機製造商協會）開始『 標準化 』這個語言，所以誕生了 『 ECMAScript 』。
+  </div>
+  <div class="font-bold bg-[#2e79c7] mt-10 text-white text-center p-0.5  w-26">版本:</div>
+  <div class="mt-5 px-4 text-[#3C3C3C]">
+    有很多不同版本的 ECMAScript，其中最有影響力的是ES6 (也被稱為 ECMAScript 2015)。這個版本加入了很多新特性，如Arrow Function、ES Module、類等
+  </div>
+
+  <div class="mx-auto bg-[#2e79c7] h-3 right-0 bottom-0 left-0 absolute"></div>
+
+---
+
+<h3 class="font-bold my-auto  mx-auto  text-xl  text-center p-3 text-[#2e79c7]">即使 JavaScript 有了 ECMAScript 規範，還是 <span class="text-[40px]">『 弱型別 』</span></h3>
+
+<div class="rounded-full  mx-auto bg-[#F0F0F0]   h-66  mt-16  pb-6  w-66 relative ">
+  <div class="font-bold my-auto mx-auto h-10 text-left  top-0 right-0 bottom-0 left-0  text-[22px] text-[#696969] w-30 block absolute">ECMAScript</div>
+  <div class="mx-auto text-xl p-1 right-0 bottom-3  left-0 w-[80px] inline-block absolute">
+   <img src="JavaScript-logo.png" >
+  </div>  
 </div>
 
-<div class="mx-auto bg-[#2e79c7] h-3 right-0 bottom-0 left-0 absolute"></div>
-
 ---
 
-<h3 class="font-bold my-auto  mx-auto mt-44 text-xl  text-center p-3 text-[#2e79c7]">為什麼選擇 TypeScript 作為這次主題？</h3>
-
-<div class="mx-auto bg-[#2e79c7] h-3 right-0 bottom-0 left-0 absolute"></div>
-
----
-
-<h3 class="font-bold my-auto  mx-auto mt-44 text-xl  text-center p-3 text-[#2e79c7]">因為我 想看懂源碼 跟 開發 Plugin</h3>
-
-<div class="mx-auto bg-[#2e79c7] h-3 right-0 bottom-0 left-0 absolute"></div>
-
----
-
-<div class="font-bold my-auto  mx-auto text-center p-3 text-[#2e79c7] text-3xl">目標對象 </div>
-
-<div class="mx-auto bg-[#2e79c7] h-3 right-0 bottom-0 left-0 absolute"></div>
-
----
-
-<div class="font-bold my-auto  mx-auto text-center p-3 text-[#2e79c7] text-3xl">預計有的內容</div>
-
-<ul class="mt-10 text-xl text-[#2e79c7]">
-  <li>TypeScript 簡介篇</li>
-  <li>TypeScript 環境設置與安裝 篇</li>
-  <li>TypeScript 基本型別 篇</li>
-  <li>TypeScript 進階型別 篇</li>
-  <li>TypeScript 應用 篇</li>
-  <li>TypeScript 應用 篇</li>
-</ul>
-
-<div class="mx-auto bg-[#2e79c7] h-3 right-0 bottom-0 left-0 absolute"></div>
-
----
-
-<div class="font-bold   mx-auto mt-40 text-center p-3 text-[#2e79c7] text-3xl">總結以上 </div>
+<div  class="font-bold  text-center mb-10 text-3xl text-[#2e79c7]" >
+ <div>TypeScript 與 JavaScript 、 ECMAScript  ?</div>
+ <img src="ts.png" class="mx-auto mt-10 w-120">
+</div>
 
 <div class="mx-auto bg-[#2e79c7] h-3 right-0 bottom-0 left-0 absolute"></div>
 
