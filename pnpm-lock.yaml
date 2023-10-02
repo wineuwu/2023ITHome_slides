@@ -1,6 +1,8 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@iconify-json/mdi-light': ^1.1.7
+  '@iconify-json/tabler': ^1.1.93
   '@slidev/cli': ^0.42.11
   '@slidev/theme-default': latest
   '@slidev/theme-seriph': latest
@@ -9,6 +11,10 @@ dependencies:
   '@slidev/cli': 0.42.11_postcss@8.4.28
   '@slidev/theme-default': 0.21.2
   '@slidev/theme-seriph': 0.21.3
+
+devDependencies:
+  '@iconify-json/mdi-light': 1.1.7
+  '@iconify-json/tabler': 1.1.93
 
 packages:
 
@@ -546,15 +552,26 @@ packages:
       '@iconify/types': 2.0.0
     dev: false
 
+  /@iconify-json/mdi-light/1.1.7:
+    resolution: {integrity: sha512-vzG+1gCku2lVKKMXjT2U8ZFZXPJd2UASblAQki7T6RcuXz/67Q4KtLk+MwXgiyBIDwVOacKYsMfm6NmiTVdZFA==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
   /@iconify-json/ph/1.1.6:
     resolution: {integrity: sha512-dexzEndlXQX/sbQhnEpA94Pby6JCGV2tZToSGcPPQpbilDGyk5VMd0ymusYoocRAn6+qLpGRvMoz5XFKGqP+VA==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: false
 
+  /@iconify-json/tabler/1.1.93:
+    resolution: {integrity: sha512-duHt+SmLIiNwJ2HpdGBwZKZQimuVOLZlYwgIs0QpR2zUxP/GlRncQ19R9HUcDYtD/OtKx+lk3ceHUcNIcXfZsQ==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
   /@iconify/types/2.0.0:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
-    dev: false
 
   /@iconify/utils/2.1.9:
     resolution: {integrity: sha512-mo+A4n3MwLlWlg1SoSO+Dt6pOPWKElk9sSJ6ZpuzbB9OcjxN8RUWxU3ulPwB1nglErWKRam2x4BAohbYF7FiFA==}

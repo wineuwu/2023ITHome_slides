@@ -207,7 +207,7 @@ let sayGoodbye :(name: string) => string = (name:string):string=> {
     <div class="font-bold mx-auto  text-center top-32 left-44 text-30px text-[#2F6FB0]    w-60 absolute " >
       明文型別 
     </div>
-    <div class="font-bold m-auto text-center top-20  right-0 bottom-0 left- text-24px text-[#2F6FB0] left-0  w-55 absolute ">
+    <div class="font-bold m-auto left- text-center  top-20 right-0 bottom-0 left-0 text-24px text-[#2F6FB0]  w-55 absolute ">
       型別化名 
     </div>
     <div class="font-bold text-center right-14 right-34 bottom-0    text-24px  text-[#2F6FB0]  w-60   absolute">
@@ -224,7 +224,3 @@ let sayGoodbye :(name: string) => string = (name:string):string=> {
 </span> </div>
 
 <div class="mx-auto bg-[#2e79c7] h-3 right-0 bottom-0 left-0 absolute"></div>
-
-
-
-
